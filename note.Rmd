@@ -1,0 +1,53 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Factor Loadings
+The table shows the loadings of different cultural elements on three factors (MR1, MR3, MR2). Loadings indicate how much each variable contributes to a factor. Higher absolute values suggest a stronger relationship.
+
+MR1 (Factor 1):
+
+Language (0.621)
+Dressing fabrics (0.594)
+Customs traditions (0.806)
+Art crafts (0.815)
+Food (0.511)
+Musing songs (0.530)
+Traditional institutions (0.617)
+These elements have high loadings on MR1, suggesting they are strongly related to this factor.
+
+MR3 (Factor 2):
+
+Dressing fabrics (0.630)
+Food (0.719)
+Dance (0.832)
+Musing songs (0.746)
+These elements have high loadings on MR3, indicating a strong relationship with this factor.
+
+MR2 (Factor 3):
+
+Traditional festivals (0.957)
+This element has a high loading on MR2, suggesting it is strongly related to this factor.
+
+SS Loadings and Variance
+SS Loadings: These are the sum of squared loadings for each factor, indicating the total variance explained by each factor.
+
+MR1: 3.091
+MR3: 2.663
+MR2: 1.170
+Proportion Var: This shows the proportion of total variance explained by each factor.
+
+MR1: 0.343 (34.3%)
+MR3: 0.296 (29.6%)
+MR2: 0.130 (13.0%)
+Cumulative Var: This indicates the cumulative variance explained by the factors.
+
+MR1: 0.343 (34.3%)
+MR3: 0.639 (63.9%)
+MR2: 0.769 (76.9%)
+Interpretation
+MR1 seems to represent a factor related to various cultural elements like language, customs, art, and institutions.
+MR3 appears to be associated with elements related to food, dance, and music.
+MR2 is primarily related to traditional festivals.
+The factors together explain 76.9% of the total variance, which means they capture a significant portion of the information in the data.
